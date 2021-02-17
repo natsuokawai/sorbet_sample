@@ -163,6 +163,10 @@ GEM
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
     semantic_range (2.3.1)
+    sorbet (0.5.6292)
+      sorbet-static (= 0.5.6292)
+    sorbet-runtime (0.5.6292)
+    sorbet-static (0.5.6292-universal-darwin-14)
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -214,6 +218,8 @@ DEPENDENCIES
   rails (~> 6.1.2, >= 6.1.2.1)
   sass-rails (>= 6)
   selenium-webdriver
+  sorbet
+  sorbet-runtime
   spring
   sqlite3 (~> 1.4)
   turbolinks (~> 5)

@@ -46,6 +46,7 @@ group :development do
   gem 'spring'
   
   gem 'sorbet'
+  gem 'sorbet-rails'
 end
 
 group :test do

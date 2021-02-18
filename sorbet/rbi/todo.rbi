@@ -10,4 +10,4 @@ module ActionController::RespondWith; end
 module ActionController::RespondWith::ClassMethods; end
 module Thor::Actions; end
 module Thor::Actions::ClassMethods; end
-module Thor::Actions::CreateFile; end
+#module Thor::Actions::CreateFile; end
